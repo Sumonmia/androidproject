@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="100"
+    android:background="@drawable/bg1"
+     >
+    
+    <TextView
+        android:id="@+id/ch2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Force"
+        android:textColor="#FFFFFF"
+        android:background="#FFCCBB"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        
+     <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="100"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="486dp"
+        android:orientation="vertical" >
+    
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Sir Isaac Newton has done a lot of research about the motion of an object. He expressed the fundamental principles of motion by three laws. In this chapter we shall discuss about these laws of motion."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/force"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+    
+    <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.1 shows differrent kinds of force"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Newton's first law and force concept:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Newton's first law: ‘Every object will continue in its state of rest or of uniform motion in a straight line unless an external force is applied to it.’"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Newton’s first law expresses the property of inertia of matter.
+            From Newton’s first law of motion we observe that a body cannot change its state on its
+own. If the body is at rest, it tends to remain at rest forever and if it is in motion it tends
+to keep on motion with uniform speed for all time. This property of a body is termed as
+inertia. Thus from the Newton’s first law of motion we get the concept of inertia."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Force concept:
+Again from Newton’s first law we see that to change the state of a body something
+external must be applied. That is, the external cause which changes or tends to change
+the state of an object is called force. Thus from Newton’s first law we get qualitative
+definition of force. According to Newton’s first law, a force is that which acting on a
+body at rest produces or tends to produce motion or acting on a moving body changes or
+tends to change its state of motion."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nature of force:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    
+     <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Force:The force which needs direct contact between two bodies to be created is defined as
+contact force. When we push or pull a body with hand our hand exerts a force on the
+body at that time. This push or pull force is contact force. Since this force is the
+consequence of the direct contact between the hand and the body. The examples of
+contact forces are- frictional force, pulling force and the force created during collision."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+     <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non-contact Force: The force which acts without direct contact between two bodies is called non-contact
+force. The attractive gravitational force between two bodies, the attractive or repulsive
+electric force between two charged bodies, the attractive or repulsive force between two
+poles of two magnets, the force of attraction acting between a magnet and a magnetic
+material are the examples of non-contact force or distant force."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+     <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Fundamental types of forces exist in nature are: "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+      <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*1. Force of gravitation: In this universe every body attracts each other by a force towards them. The mutual
+attraction between any two bodies of the universe is called gravitation. This attraction
+occurs due to mass of the bodies. The force of gravitation is comparatively weak among
+the fundamental forces. Weight of us is the consequence of gravitation. The planets of
+the solar system are revolving round the Sun due to force of gravitation. The range of
+gravitation extends to infinity."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+     <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*2. Electromagnetic force: The electromagnetic force is defined as the force exerted by two charged particles or
+bodies on each other due to their charges."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> 
+      
+     <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*3. Weak nuclear force: The short range and small magnitude force that exists between the fundamental particles
+within the nucleus is called weak nuclear force. Due to this force the nucleus becomes
+unstable and beta decay occurs. Most of the radioactive disintegration occurs due to
+weak nuclear force. The range of this force is less than 10-16 m."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*4. Strong nuclear force: It is known that there are two particles namely proton and neutron within the nucleus of
+an atom. These particles are called nucleon. The strong force that exists between two
+nucleons within the nucleus of an atom is called strong nuclear force. This force bounds
+the nucleons together."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+    
+    <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balanced force: When two or more forces acting on an object produce zero resultant force, i.e. the object
+has no acceleration; we say that the forces are balanced. The forces that produce this
+balanced condition are called balanced forces."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> 
+    
+    
+     <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/fub1"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+    
+     <TextView
+             android:id="@+id/textView16"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.2 Balanced force."
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+     <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balanced force: When two or more forces acting on an object and the resultant force is not zero then the force acting on the object is called unbalanced force."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> 
+     
+     <ImageView
+             android:id="@+id/imageView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/fub2"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+    
+     <TextView
+             android:id="@+id/textView18"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.3 Unbalanced force."
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+      <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Momentum: The physical quantity which is produced by the combination of mass and velocity of a
+moving body is the momentum. Momentum depends on the mass and velocity of the
+body.Momentum is the product of the mass and velocity of a moving body.
+Let, the mass of a body = m
+Velocity = v
+     ∴ Momentum = mv"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> 
+     
+      <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relation between force and acceleration- Newton’s second law:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+      
+      <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 'The rate of change of momentum of a body is proportional to the applied force acting on
+it and takes place in the direction in which the force acts.'"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+      <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Let a body of mass m is moving with an initial velocity u. Now a constant force F acts
+on the body for a time t in the direction of its velocity. Let the velocity of the body
+changed from u to v due to the application of the force."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Therefore,
+∴ the initial momentum of the body = mu"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="∴ the final momentum of the body = mv"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" The change of momentum in time t = mv − mu"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+      <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" So, the rate of change of momentum =(mv-mu)/t=ma"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+      <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" According to Newton’s second law of motion, the rate of change of momentum is
+proportional to the applied force.
+i.e., ma ∞ F
+= kF 
+Here, k is a constant of proportionality"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+      <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Action and reaction force- Newton’s third law"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+      <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 'To every action there is an equal and opposite reaction.'"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+      <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Therefore, according to Newton’s third law, the values of the action and reaction forces
+are same but their directions are opposite to each other. In figure 4 if the object P
+exerts a force F1 on the object Q, then according to this law, the object Q will also exert
+an equal and opposite force F2 on the object P. The force exerted by the object P on
+object Q is called action force and the force exerted by Q on P is called reaction force."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+      <ImageView
+             android:id="@+id/imageView4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/f4"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+      
+      <TextView
+             android:id="@+id/textView31"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.4 Action and reaction."
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+       <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Therefore, according to Newton’s third law, F1 = - F2"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+     
+    </LinearLayout>
+  </ScrollView>
+        
+</LinearLayout>

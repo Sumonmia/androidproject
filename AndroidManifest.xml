@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.physics"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".Back"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Formula"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.physics.PHYSICSCORE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.physics.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                <activity
+            android:name=".Chapters"
+            android:label="@string/app_name" >
+        </activity>
+                
+                
+                <activity
+            android:name=".Motion"
+            android:label="@string/app_name" >
+        </activity>
+                
+                 <activity
+            android:name=".Force"
+            android:label="@string/app_name" >
+        </activity>
+                
+                 <activity
+            android:name=".Work_Power_and_Energy"
+            android:label="@string/app_name" >
+        </activity>
+                 
+                 
+                  <activity
+            android:name=".Pressure"
+            android:label="@string/app_name" >
+        </activity>
+                 
+                   <activity
+            android:name=".Heat"
+            android:label="@string/app_name" >
+        </activity>
+                  
+                   
+                   <activity
+            android:name=".Waves_and_Sound"
+            android:label="@string/app_name" >
+        </activity>
+                  
+                   <activity
+            android:name=".Light"
+            android:label="@string/app_name" >
+        </activity>
+                   
+                   
+                    <activity
+            android:name=".Electricity"
+            android:label="@string/app_name" >
+        </activity>
+                   
+                    <activity
+            android:name=".Modern_Physics"
+            android:label="@string/app_name" >
+        </activity>
+                   
+                     <activity
+            android:name=".Physics_and_Life"
+            android:label="@string/app_name" >
+        </activity>
+                   
+                      <activity
+            android:name=".Tutorials"
+            android:label="@string/app_name" >
+        </activity>
+                     
+                      
+                      <activity
+            android:name=".About"
+            android:label="@string/app_name" >
+        </activity>
+        
+                      
+                      <activity
+            android:name=".Mathsolver"
+            android:label="@string/app_name" >
+        </activity>
+
+                      
+                      <activity
+            android:name=".InitialVelocity"
+            android:label="@string/app_name" >
+        </activity>
+        
+                      <activity
+            android:name=".FinalVelocity"
+            android:label="@string/app_name" >
+        </activity>
+                   
+                      <activity
+            android:name=".Accelaration"
+            android:label="@string/app_name" >
+        </activity>
+        
+                      <activity
+            android:name=".Time"
+            android:label="@string/app_name" >
+        </activity>
+        
+                       <activity
+            android:name=".Mforce"
+            android:label="@string/app_name" >
+        </activity>
+        
+                       <activity
+            android:name=".Mass"
+            android:label="@string/app_name" >
+        </activity>
+        
+                       <activity
+            android:name=".Workdone"
+            android:label="@string/app_name" >
+        </activity>
+        
+                       <activity
+            android:name=".Distance"
+            android:label="@string/app_name" >
+        </activity>
+        
+                        <activity
+            android:name=".Voltage"
+            android:label="@string/app_name" >
+        </activity>
+        
+                        <activity
+            android:name=".Current"
+            android:label="@string/app_name" >
+        </activity>
+        
+                         <activity
+            android:name=".Resistance"
+            android:label="@string/app_name" >
+        </activity>
+                      
+    </application>
+
+</manifest>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="100"
+    android:background="@drawable/bg1"
+     >
+    
+    
+    <TextView
+        android:id="@+id/ch4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pressure"
+        android:textColor="#FFFFFF"
+        android:background="#FFCCBB"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="100"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="486dp"
+        android:orientation="vertical" >
+    
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Pressure and Area:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" The force exerted perpendicularly to unit are of a body is called pressure. Let a force F act perpendicularly on area A of a surface, then pressure,"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+         <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" P=F/A"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+          <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" i,e. Pressure=Force/Area"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+          <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/pressure1"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+          
+          <TextView
+             android:id="@+id/textView5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.1 force exerted in less area but more pressure"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+          <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/pressure2"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+          
+          <TextView
+             android:id="@+id/textView6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.2 force exerted in more area but less pressure"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+          
+          <TextView
+             android:id="@+id/textView7"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text=" It is noted that less the area A, more is the pressure P and more the force F, more is the pressure P."
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+           <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Density:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+            <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  The mass per unit volume of a substance is called the density of its material. Density is a general property of matter. Density of a body depends on its material and temperature."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+            <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Density is denoted by ρ. If the mass of a body is m and its volume is V, then density"
+            android:paddingTop="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   ρ=m/v=(mass of the body/volume of the body)"
+            android:paddingTop="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            
+            <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pascal’s Law:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            
+            <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  If pressure is applied on any point of an enclosed liquid or gas it is transmitted in all directions. Pascal stated a law about this transmission of pressure."
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+            <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pascal’s Law:' External pressure applied to any portion of a liquid or a gas enclosed in a container is equally transmitted in all directions in the liquid or the gas without any trace of diminution and acts perpendicularly on the surface of the container in contact with the liquid or gas.'"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elasticity:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Elasticity is defined as the attributed property by which a body is able to resist deformation, either in shape or in volume or both and recovers its original shape and size when the deforming force is removed. The substances which possess this property are called elastic substances."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hooke’s law: 'Scientist Robert Hooke invented the basic law of elasticity. According to this law- within elastic limit stress is directly proportional to strain.'"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mathematically we may write,"
+            android:paddingTop="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stress ∝ strain"
+            android:paddingTop="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="∴ stress = constant × strain."
+            android:paddingTop="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+          <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  This constant is called the modulus of elasticity of the material of the body. Strain has no unit."
+            android:paddingTop="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+            
+            
+            
+            
+      </LinearLayout>
+  </ScrollView>
+
+</LinearLayout>

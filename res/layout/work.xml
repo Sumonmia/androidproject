@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="100"
+    android:background="@drawable/bg1"
+     >
+    
+    <TextView
+        android:id="@+id/ch3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Work,Power and Energy "
+        android:textColor="#FFFFFF"
+        android:background="#FFCCBB"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="100"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="486dp"
+        android:orientation="vertical" >
+    
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Work:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Work means to do something in our everyday life but in science doing anything is not work. In science the term work represents a definite concept.In fact in science work is done when
+displacement is associated with force. So, if a force acts on a body and causes its displacement only then work is said to be done.Work is
+measured by the product of applied force on a body and its displacement along the direction of force. Therefore, "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        
+        <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/work"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+        
+         <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Work = Force × Distance travelled along the direction of force "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+         
+         <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  If a force F is applied on a body and the body travels a distance s along the direction of force then the work done (W) will be,
+W= Fs "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+         <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Energy:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         
+         <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Nothing can move or work without energy.The energy of a body means its ability to work. So the
+body which is able to work has energy in it and the body that does not have energy in it cannot work.Again the amount of work done on a body is equal to the energy we use. "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Here work means the transformation of energy from one form to another. It means that the total amount of work that a body can
+do is its energy. The amount of work a body can do is the measure of its energy. So, the amount of work done is the amount of energy used."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Therefore, Work done = Energy used"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Different forms of energy:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         
+         <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potential Energy: The ability of a body to do work when its normal position or configuration is changed to some other position or configuration is called potential energy."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/pot"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+         
+         <TextView
+             android:id="@+id/textView11"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.2 potential energy in spring"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kinetic Energy: Creating velocity in a body in rest or increasing the velocity of a moving object means to produce acceleration in it. For this force has to be applied. As a result work will be done on the body. For this the body will obtain the ability to work and this work will be stored in the object as kinetic energy. This is why all moving objects are in possession of kinetic energy."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <ImageView
+             android:id="@+id/imageView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/kin"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+         
+         <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Kinetic energy = Work done
+                = Force × displacement
+                = F × s
+            or, Ek = mas; [ as, F = ma]"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Power:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" We all are familiar with the word power. In our daily life power is usually related to taking decision and implementation. In science the word “power” is related to the devices motor, pump, and engine etc. i.e. any device that can work."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Power is the rate of doing work or transformation of energy. Power of a person or a source is measured by the amount of work done per unit time."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Power = Work/Time"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" If as person or a device can do W amount of work or transform energy at time t then the power P will be,"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" P=W/t"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Efficiency:"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" The amount of energy obtained from the engine is called effective energy. In this case the equation of energy is,
+Given energy = Effective energy + the energy lost in other ways"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" The efficiency of an engine means that how much of the given energy is obtained as effective energy. So, the efficiency means the ratio of effective energy and the total given energy. Usually the efficiency is expressed in percentage."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ∴ efficiency, 
+η=(Effective energy/Total inpit energy)*100%"
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         
+         
+       </LinearLayout>
+  </ScrollView>
+</LinearLayout>

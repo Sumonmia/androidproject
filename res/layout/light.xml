@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="100"
+    android:background="@drawable/bg1"
+     >
+     
+    
+    
+    <TextView
+        android:id="@+id/ch7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Light"
+        android:textColor="#FFFFFF"
+        android:background="#FFCCBB"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="100"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="486dp"
+        android:orientation="vertical" >
+    
+        
+         <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nature of light: "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         
+          <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  We know, light is a form of energy by which we are able to see the objects. When light comes from an object to our eyes, we see the object at that time. The light entered into the eyes forms an image of the object in the retina and develops a sense of vision similar to the object in our brain through a complex process."
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+          
+           <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reflection of light: "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+           <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/light"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+           
+           <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  We see many things around us. When light comes directly to our eyes from any source, we can see the source. Again, when light emitted from a light source comes to our eyes after reflection from the surface of any object, we see the object too. Light is a kind of energy or external cause which enables us to see or creates the sense of vision in our eyes. "
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laws of reflectionR eflection: "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  First law: The incident ray, reflected ray and the normal at the point of incidence on the reflector lie in the same plane. "
+            android:paddingTop="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Second law: The angle of incidence is equal to the angle of reflection."
+            android:paddingTop="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/light1"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+           
+           <TextView
+             android:id="@+id/textView8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.2 Reflection of light"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Regular reflection: If a parallel beam of light falls on a smooth surface and after reflection remains parallel, or is converted into a convergent or a divergent beam, then such type of reflection is called regular reflection. "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <ImageView
+             android:id="@+id/imageView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/light2"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+           
+           <TextView
+             android:id="@+id/textView10"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.3 Regular reflection"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Diffused reflection: If a parallel beam of light is incident on a surface and after reflection it is neither parallel nor converted into a convergent or a divergent beam, then such reflection is called diffused or irregular reflection."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           
+           <ImageView
+             android:id="@+id/imageView4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/light3"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+           
+           <TextView
+             android:id="@+id/textView12"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.4 Diffused reflection"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Mirror:A mirror is a smooth surface on which regular reflection takes place. A clear image of an object placed in front of a mirror is formed due to reflection of light. "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Concave mirror: If the concave surface of a sphere acts as the reflector, that is if regular reflection of light takes place from the concave surface of the spherical mirror, then it is called a concave mirror."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <ImageView
+             android:id="@+id/imageView5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/light4"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+           
+           <TextView
+             android:id="@+id/textView15"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.5 Concave mirror"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Convex mirror: If the convex surface of a sphere acts as the reflector, that is if regular reflection of light takes place from the convex surface of the spherical mirror, then it is called a convex mirror."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           <ImageView
+             android:id="@+id/imageView6"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/light5"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+           
+           <TextView
+             android:id="@+id/textView17"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.6 Convex mirror"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           
+           <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refraction of light: "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+           <ImageView
+             android:id="@+id/imageView7"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/light6"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+           
+           <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  When the ray of light travels obliquely from one transparent medium to another, the bending of ray of light at the surface of separation of the two media is called the refraction of light."
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laws of Refraction: "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  First law: The incident ray, normal drawn at the point of incidence on the surface of separation and the refracted ray lie on the same plane."
+            android:paddingTop="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+           <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Second law: When light enters obliquely to a transparent medium from another transparent medium then for a fixed pair of media and for a fixed colour of light the ratio of the sine of the angle of incidence to the sine of the angle of refraction always remains constant.
+This law is also known as Snell’s law."
+            android:paddingTop="2dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refractive index:For a particular pair of transparent medium and a particular colour of light when ray of light refracts from one medium to another, then if the angle of incidence is i and the angle of refraction is r, then (sini/sinr)  will be a constant and it is called refractive index of the second medium with respect to the first medium for that colour of light. It is expressed by n."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  If the ray of light enters in the medium b from medium a then the refractive index of medium b with respect to a is anb =(sin i/sin r)"
+            android:paddingTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Critical angle: When ray of light passes from a denser medium to a rarer medium, then the refracted ray is deviated away from the normal. As a result the angle of refraction becomes greater than the angle of incidence. "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Lens:A lens is a transparent refractive medium bounded by two spherical surfaces.
+Lenses are of two types: "
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  *Convex lens: The lens whose mid portion is thick but the edges are thin is called convex lens. As the convex lens can converge a beam of parallel light rays after refraction hence it is also called converging lens."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           <ImageView
+             android:id="@+id/imageView8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/light7"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+           
+           <TextView
+             android:id="@+id/textView29"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.8 Convex lens"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           
+           <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  *Concave lens: The lens whose mid portion is thin but the edges are thick is called concave lens. As the concave lens can diverge a beam of parallel light rays after refraction hence it is also called diverging lens."
+            android:paddingTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           <ImageView
+             android:id="@+id/imageView9"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/light8"
+             android:paddingTop="5dp"
+             android:layout_gravity="center"
+              />
+           
+           <TextView
+             android:id="@+id/textView31"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="fig.9 Concave lens"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+           
+           
+
+        </LinearLayout>
+  </ScrollView>
+</LinearLayout>
